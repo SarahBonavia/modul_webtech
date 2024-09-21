@@ -1,0 +1,38 @@
+@import url("https://use.typekit.net/sbw1zdm.css");
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    margin-top: 60px;
+}
+
+.redline {
+    height: 20px;
+    width: 100%;
+    background-color: red;
+
+}
+.textcontainer {
+    display: flex;
+    flex-direction: row; 
+
+}
+
+.whitespace {
+    flex: 1;
+}
+
+.titel {
+    font-family: "acumin-pro", sans-serif;
+    font-weight:600;
+    font-style: normal;
+    font-size: 45pt;
+    margin: 0;
+}
+
+.rotate {
+    transform: rotate(270deg);
+    margin-top: 180pt;
+    margin-left: -80px;
+}

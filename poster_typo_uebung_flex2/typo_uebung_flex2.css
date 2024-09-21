@@ -1,0 +1,77 @@
+@import url("https://use.typekit.net/sbw1zdm.css");
+
+/* Container for horizontal and vertical sections */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    margin-top: 60px;
+}
+
+.redline {
+    height: 20px;
+    width: 100%;
+    background-color: red;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.whitespace {
+    flex: 1;
+}
+
+.titel {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45pt;
+    margin: 0;
+}
+
+.rotate {
+    transform: rotate(270deg);
+    margin-top: 180pt;
+    margin-left: -80px;
+}
+
+/* Main content section */
+.main-content {
+    margin-top: 80px;
+    width: 80vw;
+    text-align: left;
+}
+
+.main-content h1 {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-size: 25pt;
+}
+
+.main-content h2 {
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 500;
+    font-size: 25pt;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 18pt;
+    line-height: 1.6;
+}
+
+ul li {
+    font-family: "acumin-pro", sans-serif;
+}
+
+/* Footer section */
+.footer-text {
+    margin-top: 30px;
+    font-family: "acumin-pro", sans-serif;
+    text-align: right;
+    font-size: 15pt;
+    transform: rotate(270deg);
+}
